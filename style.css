@@ -11,6 +11,10 @@ body{
     margin-bottom: 150px;
 }
 
+.header-text{
+    margin-bottom: 10vh;
+}
+
 /*------------------ Navbar ------------------------ */
 
 .navbar-logo{
@@ -60,7 +64,6 @@ body{
 }
 
 
-
 /*------------------ Home ------------------------ */
 
 
@@ -107,10 +110,6 @@ body{
     width: 55vw;
 }
 
-.about-header-text{
-    margin-bottom: 10vh;
-}
-
 .about-grid{
     display: grid;
     grid-template-columns: repeat(2, 500px);
@@ -126,3 +125,47 @@ body{
     align-items: center;
 }
 
+.about-paragraph{
+    width: 300px;
+}
+
+/*------------------ EXP ------------------------ */
+
+.exp-header{
+    width: 60vw;
+}
+
+.exp-hr{
+    margin-top: 0;
+}
+
+.exp-text{
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.exp-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows:  45px 150px 45px 150px;
+    align-content: center;
+    justify-content: center;
+}
+
+.exp-skills-text{
+    text-align: center;
+}
+
+.exp-skills-logo{
+    width: 75px;
+    height: 75px;
+}
+
+.exp-skills-logo-color{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+    align-self: center;
+    justify-self: center;
+}
