@@ -137,6 +137,7 @@ body{
 
 .exp-hr{
     margin-top: 0;
+    margin-bottom: 3vh;
 }
 
 .exp-text{
@@ -153,19 +154,124 @@ body{
     justify-content: center;
 }
 
-.exp-skills-text{
-    text-align: center;
-}
-
+/* Sizes of the logos */
 .exp-skills-logo{
     width: 75px;
     height: 75px;
+    transform: scale(-1);
+    }
+
+/* The border the logo and the background color div stay in */
+.exp-skills-border{
+    width: 75px;
+    height: 75px;
+    border: solid 3px black;
+    justify-self: center;
+    align-self: center;
+    transform: scale(-1);
 }
 
-.exp-skills-logo-color{
+.exp-skills-text-Unity{
+    text-align: center;
+}
+
+/* BG Color of the logo */
+
+.exp-skills-logo-color-Unity{
+    height:55px;
+    width: 75px;
+    background-color: purple;
+    
+} 
+
+.exp-skills-text-Bootstrap{
+    text-align: center;
+}
+
+.exp-skills-logo-color-Bootstrap{
+    width: 75px;
+    height: 55px;
+    background-color: purple;
+
+}
+
+.exp-skills-text-CSharp{
+    text-align: center;
+}
+
+.exp-skills-logo-color-CSharp{
     width: 75px;
     height: 75px;
     background-color: purple;
-    align-self: center;
-    justify-self: center;
+
+}
+
+.exp-skills-text-CPlusPlus{
+    text-align: center;
+}
+
+.exp-skills-logo-color-CPlusPlus{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+
+.exp-skills-text-Git{
+    text-align: center;
+}
+
+.exp-skills-logo-color-Git{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+
+.exp-skills-text-Java{
+    text-align: center;
+}
+
+.exp-skills-logo-color-Java{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+
+.exp-skills-text-Python{
+    text-align: center;
+}
+
+.exp-skills-logo-color-Python{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+
+.exp-skills-text-JavaScript{
+    text-align: center;
+}
+
+.exp-skills-logo-color-JavaScript{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+
+.exp-skills-text-CSS{
+    text-align: center;
+}
+
+.exp-skills-logo-color-CSS{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+}
+
+.exp-skills-text-HTML{
+    text-align: center;
+}
+
+.exp-skills-logo-color-HTML{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
 }
