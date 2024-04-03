@@ -275,3 +275,11 @@ body{
     height: 75px;
     background-color: purple;
 }
+
+/* Personal Skills */
+.personal-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows:  45px 150px;
+    justify-content: left;
+}
