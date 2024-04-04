@@ -15,6 +15,12 @@ body{
     margin-bottom: 10vh;
 }
 
+.header{
+    width: 65vw;
+}
+
+.style-text{}
+
 /*------------------ Navbar ------------------------ */
 
 .navbar-logo{
@@ -106,9 +112,6 @@ body{
     height: 200px;
 }
 
-.about-header{
-    width: 55vw;
-}
 
 .about-grid{
     display: grid;
@@ -130,10 +133,6 @@ body{
 }
 
 /*------------------ EXP ------------------------ */
-
-.exp-header{
-    width: 60vw;
-}
 
 .exp-hr{
     margin-top: 0;
@@ -282,4 +281,74 @@ body{
     grid-template-columns: repeat(4, 200px);
     grid-template-rows:  45px 150px;
     justify-content: left;
+}
+
+.exp-logo-uni{
+    width: 100px;
+    height: 100px;
+}
+
+.exp-logo-vm{
+    width: 175px;
+    height: 75px;
+}
+
+.exp-box-and-logo{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    align-content: left;
+}
+
+.exp-link{
+    text-decoration: none;
+    /* color */
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    align-self: left;
+}
+
+.exp-flex-container{
+    display: flex;
+}
+
+.exp-project-logo{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    align-self: center;
+}
+
+.exp-a{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-button{
+    text-align: left;
+    margin-top: 70px;
+}
+
+.resume-a{
+    text-decoration: none;
+    /* color */
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    align-self: left;
+}
+
+/*------------------ Contact ------------------------ */
+
+.contact-socials{
+    text-align: left;
+}
+
+.contact-a{
+    text-decoration: none;
 }
