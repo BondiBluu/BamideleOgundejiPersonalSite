@@ -2,7 +2,13 @@
 <html>
 <head>
     <title>Site of Bamidele Ogundeji</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">    
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="outer-navbar">
@@ -10,10 +16,10 @@
             <div class="temp-logo"></div>
         </div>
         <div class="navbar-inside">
-            <a href="#home" class="navbar-button">Home</a>
-            <a href="#about" class="navbar-button">About</a>
-            <a href="#exp" class="navbar-button">Experience</a>
-            <a href="#contact" class="navbar-button">Contact Me</a>
+            <a href="#home" class="navbar-button sub-text">Home</a>
+            <a href="#about" class="navbar-button sub-text">About</a>
+            <a href="#exp" class="navbar-button sub-text">Experience</a>
+            <a href="#contact" class="navbar-button sub-text">Contact Me</a>
         </div>
     </div>
 
@@ -21,18 +27,21 @@
     <div class="flex-container">
         <div id="home" class="home-grid">
             <div class="home-header">
-                <h1 >Bamidele Ogundeji</h1>
+                <div class="name-text">
+                    <h1 class="main-text">Bamidele</h1>
+                    <h1 class="main-text">Ogundeji</h1>
+                </div>
             </div>
             <div class="home-grid-image">
                 <img class="home-image" src="Images/Syd_Main.jpg">
             </div>
             <div>
-                <h2>You're here! Why don't we sit and talk for a while?</h2>
+                <h2 class="sub-text">You're here! Why don't we sit and talk for a while?</h2>
                 <h3>
-                    <ul class="home-unordered-list">
-                        <li>Software Developer</li>
-                        <li>Web Developer</li>
-                        <li>Game Developer</li>
+                    <ul class="home-unordered-list sub-text">
+                        <li class="name-text">Software Developer</li>
+                        <li class="name-text">Web Developer</li>
+                        <li class="name-text">Game Developer</li>
                     </ul>
                 </h3>
             </div>
@@ -44,10 +53,10 @@
         <div class="header">
   
                 <div>
-                    <h1 id="about" class="header-text">About</h1>
+                    <h1 id="about" class="header-text main-text">About</h1>
                 </div>
 
-                <div class="header-text ">
+                <div class="header-text sub-text">
                     <h2>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
@@ -59,16 +68,16 @@
                 <div id="about" class="about-grid">
                     <div class="about-grids-inner-flexbox">
                         <img class="about-image" src="Images/blacksquare.webp">
-                        <h3>Thing One of What I Like To Do.</h3>
-                        <p class="about-paragraph">
+                        <h3 class="sub-text">Thing One of What I Like To Do.</h3>
+                        <p class="about-paragraph sub-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
                     </div> 
                     <div class="about-grids-inner-flexbox">
-                        <img class="about-image" src="Images/blacksquare.webp">
-                        <h3>Thing One of What I Like To Do.</h3>
-                        <p class="about-paragraph">
+                        <img class="about-image " src="Images/blacksquare.webp">
+                        <h3 class="sub-text">Thing One of What I Like To Do.</h3>
+                        <p class="about-paragraph sub-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
@@ -76,16 +85,16 @@
                 
                     <div class="about-grids-inner-flexbox">
                         <img class="about-image" src="Images/blacksquare.webp">
-                        <h3>Thing One of What I Like To Do.</h3>
-                        <p class="about-paragraph">
+                        <h3 class="sub-text">Thing One of What I Like To Do.</h3>
+                        <p class="about-paragraph sub-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
                     </div>
                     <div class="about-grids-inner-flexbox">
                         <img class="about-image" src="Images/blacksquare.webp">
-                        <h3>Thing One of What I Like To Do.</h3>
-                        <p class="about-paragraph">
+                        <h3 class="sub-text">Thing One of What I Like To Do.</h3>
+                        <p class="about-paragraph sub-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
@@ -98,25 +107,25 @@
 
     <div class="flex-container">
         <div class="header">
-            <h1 id="exp" class="header-text">What Have I Done?</h1>
-            <h2 class="exp-text"> Technical</h2>
+            <h1 id="exp" class="header-text main-text">What Have I Done?</h1>
+            <h2 class="exp-text main-text"> Technical</h2>
         <hr class=" exp-hr"/>
         <!-- Technical Grid -->
             <div class="exp-grid">
                 <div class="exp-skills-text-Unity">
-                    <h3 class=> Unity </h3>
+                    <h3 class="sub-text"> Unity </h3>
                 </div>
                 <div class="exp-skills-text-CSharp">
-                    <h3 > C# </h3>
+                    <h3 class="sub-text"> C# </h3>
                 </div>
                 <div class="exp-skills-text-Bootstrap">
-                    <h3 > Bootstrap </h3>
+                    <h3 class="sub-text"> Bootstrap </h3>
                 </div>
-                <div>
-                    <h3 class="exp-skills-text-CPlusPlus"> C++ </h3>
+                <div class="exp-skills-text-CPlusPlus">
+                    <h3 class="sub-text"> C++ </h3>
                 </div>
                 <div class="exp-skills-text-Git">
-                    <h3> Git </h3>
+                    <h3 class="sub-text"> Git </h3>
                 </div>
                 <div class="exp-Unity exp-skills-border">
                     <div class="exp-skills-logo-color-Unity">
@@ -144,19 +153,19 @@
                     </div>                    
                 </div>
                 <div class="exp-skills-text-Java">
-                    <h3> Java </h3>
+                    <h3 class="sub-text"> Java </h3>
                 </div>
                 <div class="exp-skills-text-Python">
-                    <h3> Python </h3>
+                    <h3 class="sub-text"> Python </h3>
                 </div>
                 <div class="exp-skills-text-JavaScript">
-                    <h3 > JavaScript </h3>
+                    <h3 class="sub-text"> JavaScript </h3>
                 </div>
                 <div class="exp-skills-text-CSS">
-                    <h3> CSS </h3>
+                    <h3 class="sub-text"> CSS </h3>
                 </div>
                 <div class="exp-skills-text-HTML">
-                    <h3> HTML </h3>
+                    <h3 class="sub-text"> HTML </h3>
                 </div>
                 <div class="exp-Java exp-skills-border">
                     <div class="exp-skills-logo-color-Java">
@@ -185,20 +194,20 @@
                 </div>
             </div>
             <!-- Personal -->
-            <h2 class="exp-text"> Personal</h2>
+            <h2 class="exp-text main-text"> Personal</h2>
             <hr class=" exp-hr"/>
         <div class="personal-grid">
             <div class="exp-skills-text-Java">
-                <h3> Strong Work Ethic </h3>
+                <h3 class="sub-text"> Strong Work Ethic </h3>
             </div>
             <div class="exp-skills-text-Python">
-                <h3> Team Oriented </h3>
+                <h3 class="sub-text"> Team Oriented </h3>
             </div>
             <div class="exp-skills-text-JavaScript">
-                <h3 > Analytical </h3>
+                <h3 class="sub-text"> Analytical </h3>
             </div>
             <div class="exp-skills-text-CSS">
-                <h3> Quick Learner </h3>
+                <h3 class="sub-text"> Quick Learner </h3>
             </div>
             <div class="exp-Java exp-skills-border">
                 <div class="exp-skills-logo-color-Java">
@@ -223,27 +232,27 @@
         </div>
             <!-- School and Job -->
             <div>
-                <h2 class="exp-text"> Education </h2>
+                <h2 class="exp-text main-text"> Education </h2>
                 <hr class=" exp-hr"/>
             </div>
             <div class="exp-box-and-logo">
                 <img class="exp-logo-uni" src="Images/Saint_Peter's_University_Seal.png">
-                <h3>Saint Peter's University - Bachelor of Science, CIS</h3>
+                <h3 class="sub-text">Saint Peter's University - Bachelor of Science, CIS</h3>
             </div>
             <div>
-                <h2 class="exp-text"> Experience </h2>
+                <h2 class="exp-text main-text"> Experience </h2>
                 <hr class=" exp-hr"/>
             </div>
             <div class="exp-box-and-logo">
                 <img class="exp-logo-vm" src="Images/VM Logo.png">
-                <h3 >Value Momentum - Assistant Programmer Analyst</h3>
+                <h3 class="sub-text">Value Momentum - Assistant Programmer Analyst</h3>
             </div>
             <!-- Projects -->
             <div>
-                <h2 class="exp-text"> Projects </h2>
+                <h2 class="exp-text main-text"> Projects </h2>
                 <hr class=" exp-hr"/>
-                <div class="exp-flex-container">
-                    <h3>
+                <div class="exp-flex-container ">
+                    <h3 class="sub-text">
                         Turn-based RPG Project
                 </h3>
                     <img class="exp-project-logo" src="Images/Unity Logo.png">
@@ -251,25 +260,25 @@
                     <img class="exp-project-logo" src="Images/visualstudio.png">
                 </div>
                 <div class="exp-a">
-                    <a class="exp-link" href="https://github.com/BondiBluu/RPG-Prototype/blob/master/Assets/Scripts/For%20Battle/BattleSystem.cs" target="_blank">
+                    <a class="exp-link sub-text" href="https://github.com/BondiBluu/RPG-Prototype/blob/master/Assets/Scripts/For%20Battle/BattleSystem.cs" target="_blank">
                         Wanna See?    
                     </a>
                 </div>
                 <div class="exp-flex-container">
-                    <h3>
+                    <h3 class="sub-text">
                         Quiz Master
                 </h3>
                     <img class="exp-project-logo" src="Images/Unity Logo.png">
                     <img class="exp-project-logo" src="Images/visualstudio.png">
                 </div>
                 <div class="exp-a">
-                    <a class="exp-link" href="https://github.com/BondiBluu/Quiz-Master" target="_blank">
+                    <a class="exp-link sub-text" href="https://github.com/BondiBluu/Quiz-Master" target="_blank">
                         See Here  
                     </a>
                 </div>
 
                 <div class="resume-button">
-                    <a class="resume-a" href="" target="_blank">Why not take a look at the official resume?</a>
+                    <a class="resume-a sub-text" href="" target="_blank">Why not take a look at the official resume?</a>
                 </div> 
             </div>
     </div>
@@ -277,14 +286,14 @@
     <!-- Contact -->
     <div class="flex-container">
         <div class="header">
-            <h1 id="contact" class="style-text" >Phew, that was a lot!</h1>
-            <h2 class="header-text style-text">Let's talk. Contact me at:</h2>
+            <h1 id="contact" class="main-text" >Phew, that was a lot!</h1>
+            <h2 class="header-text main-text">Let's talk. Contact me at:</h2>
             <h3 class="header-text style-text contact-socials">
-                <a class="contact-a" href="mailto:bamideleogundeji999@gmail.com">bamideleogundeji999@gmail.com</a>
+                <a class="contact-a sub-text" href="mailto:bamideleogundeji999@gmail.com">bamideleogundeji999@gmail.com</a>
                 <br>
                 <br>
-                <a class="contact-a" href="https://www.linkedin.com/in/bamidele-ogundeji"target="_blank">How about my Linkedin?</a>
-                <a class="contact-a" href="https://github.com/BondiBluu" target="_blank">Github?</a>
+                <a class="contact-a sub-text" href="https://www.linkedin.com/in/bamidele-ogundeji"target="_blank">How about my Linkedin?</a>
+                <a class="contact-a sub-text" href="https://github.com/BondiBluu" target="_blank">Github?</a>
             </h3>
         </div>
         </div>

@@ -1,6 +1,12 @@
 body{
     margin: 0;
     padding-top: 10vh;
+    color: white;
+    background-color: #000957;
+}
+
+a{
+    color: white;
 }
 
 .flex-container{
@@ -14,12 +20,21 @@ body{
 .header-text{
     margin-bottom: 10vh;
 }
+.name-text{
+    padding-bottom: 10px;
+}
+
+.main-text{
+    font-family: "Press Start 2P", system-ui;
+}
+
+.sub-text{
+    font-family: "Share Tech Mono", monospace;
+}
 
 .header{
     width: 55vw;
 }
-
-.style-text{}
 
 /*------------------ Navbar ------------------------ */
 
@@ -38,7 +53,7 @@ body{
 
 .outer-navbar{
     width: 100%;
-    background-color: aliceblue;
+    background-color: black;
     height: 10vh;
     position: fixed;
     top: 0;
@@ -46,10 +61,11 @@ body{
     align-content: center;
     justify-content: center;
     margin: 0;
+    
 }
 
 .navbar-inside{
-    background-color: aliceblue;
+    background-color: black;
     width: 90vw;
     display: flex;
     justify-content: flex-end;
@@ -58,7 +74,7 @@ body{
 
 .navbar-button{
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: black;
     align-self: center;
     padding: 10px 20px;
     
@@ -302,7 +318,7 @@ body{
 .exp-link{
     text-decoration: none;
     /* color */
-    border: solid 2px black;
+    border: solid 2px white;
     padding: 10px;
     border-radius: 5px;
     margin-top: 5px;
