@@ -16,7 +16,7 @@ body{
 }
 
 .header{
-    width: 65vw;
+    width: 55vw;
 }
 
 .style-text{}
@@ -72,14 +72,13 @@ body{
 
 /*------------------ Home ------------------------ */
 
-
 .home-grid{
     display: grid;
     grid-template-columns: 300px 500px;
     grid-template-rows: 100px 100px 100px;
     text-align: left;
     gap: 20px;
-    padding: 50px;
+    margin: 0px;
 }
 
 .home-image{
